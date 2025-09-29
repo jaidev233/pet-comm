@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption - Pet Committee IIITD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Open Sans', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Fredoka One', cursive; }
+        .bg-iiitd-blue { background-color: #003366; }
+        .text-iiitd-blue { color: #003366; }
+        .bg-accent-orange { background-color: #F97316; }
+        .text-accent-orange { color: #F97316; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <img src="img/logo.png" alt="Pet Committee Logo" class="w-8 h-8">
+                <span class="text-xl font-bold text-iiitd-blue">Pet Committee IIITD</span>
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-accent-orange">Home</a>
+                <a href="people.html" class="text-gray-600 hover:text-accent-orange">People</a>
+                <a href="pets.html" class="text-gray-600 hover:text-accent-orange">Pets</a>
+                <a href="adoption.html" class="text-accent-orange font-semibold">Adoption</a>
+                <a href="events.html" class="text-gray-600 hover:text-accent-orange">Events</a>
+                <a href="resources.html" class="text-gray-600 hover:text-accent-orange">Resources</a>
+                <a href="contact.html" class="text-gray-600 hover:text-accent-orange">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 hover:text-accent-orange">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Home</a>
+            <a href="people.html" class="block py-2 px-4 text-sm hover:bg-gray-100">People</a>
+            <a href="pets.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Pets</a>
+            <a href="adoption.html" class="block py-2 px-4 text-sm bg-gray-100 font-semibold">Adoption</a>
+            <a href="events.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Events</a>
+            <a href="resources.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Resources</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold text-center text-iiitd-blue mb-4">Find Your New Best Friend</h1>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">These wonderful animals are looking for a loving home. If you are interested in adopting, please click the "Adopt Me" button to fill out our adoption form.</p>
+            
+            <div class="max-w-4xl mx-auto bg-gray-50 rounded-lg shadow-lg overflow-hidden md:flex">
+                <div class="md:w-1/2">
+                    <img src="pet_pics/JOY.jpg" alt="A cute kitten named JOY" class="w-full h-full object-cover">
+                </div>
+                <div class="p-8 md:w-1/2 flex flex-col justify-center">
+                    <h3 class="text-4xl font-bold text-accent-orange mb-4">JOY</h3>
+                    <div class="text-gray-700 text-lg space-y-2 mb-6">
+                        <p><strong>Age:</strong> Approx. 3 Months</p>
+                        <p><strong>Health:</strong> Dewormed. Will be vaccinated upon adoption.</p>
+                        <p><strong>Temperament:</strong> Extremely playful, curious, and loves to be held. She is a bundle of joy looking for her forever home!</p>
+                    </div>
+                    <a href="https://forms.gle/Lk378c885xaJTe5z7" target="_blank" class="inline-block w-full md:w-auto text-center bg-accent-orange hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">Adopt Joy Now</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-iiitd-blue text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold">Pet Committee IIITD</h3>
+                    <p class="text-gray-300">Okhla Industrial Estate, Phase III, New Delhi-110020</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-white">Facebook</a>
+                    <a href="#" class="text-gray-300 hover:text-white">Instagram</a>
+                    <a href="contact.html" class="text-gray-300 hover:text-white">Contact</a>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+                &copy; 2025 IIITD Pet Committee. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
