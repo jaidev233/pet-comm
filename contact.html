@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Pet Committee IIITD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Open Sans', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Fredoka One', cursive; }
+        .bg-iiitd-blue { background-color: #003366; }
+        .text-iiitd-blue { color: #003366; }
+        .bg-accent-orange { background-color: #F97316; }
+        .text-accent-orange { color: #F97316; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <img src="img/logo.png" alt="Pet Committee Logo" class="w-8 h-8">
+                <span class="text-xl font-bold text-iiitd-blue">Pet Committee IIITD</span>
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-accent-orange">Home</a>
+                <a href="people.html" class="text-gray-600 hover:text-accent-orange">People</a>
+                <a href="pets.html" class="text-gray-600 hover:text-accent-orange">Pets</a>
+                <a href="adoption.html" class="text-gray-600 hover:text-accent-orange">Adoption</a>
+                <a href="events.html" class="text-gray-600 hover:text-accent-orange">Events</a>
+                <a href="resources.html" class="text-gray-600 hover:text-accent-orange">Resources</a>
+                <a href="contact.html" class="text-accent-orange font-semibold">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 hover:text-accent-orange">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Home</a>
+            <a href="people.html" class="block py-2 px-4 text-sm hover:bg-gray-100">People</a>
+            <a href="pets.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Pets</a>
+            <a href="adoption.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Adoption</a>
+            <a href="events.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Events</a>
+            <a href="resources.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Resources</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm bg-gray-100 font-semibold">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold text-center text-iiitd-blue mb-12">Get In Touch</h1>
+            <div class="grid md:grid-cols-2 gap-12">
+
+                <!-- Contact Form -->
+                <div>
+                    <h2 class="text-2xl font-bold text-accent-orange mb-4">Send us a Message</h2>
+                    <form action="mailto:petcommittee@sc.iiitd.ac.in" method="post" enctype="text/plain" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-semibold">Name</label>
+                            <input type="text" id="name" name="name" class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-semibold">Email</label>
+                            <input type="email" id="email" name="email" class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent-orange">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 font-semibold">Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent-orange"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full bg-iiitd-blue hover:bg-blue-800 text-white font-bold py-3 px-4 rounded-md transition duration-300">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+                    <h2 class="text-2xl font-bold text-accent-orange mb-4">Contact Information</h2>
+                    <div class="space-y-4 text-gray-700">
+                        <div>
+                            <h3 class="font-semibold text-lg">General Inquiries</h3>
+                            <p>For any questions, suggestions, or volunteer inquiries, please email us at:</p>
+                            <a href="mailto:petcommittee@sc.iiitd.ac.in" class="text-iiitd-blue hover:underline">petcommittee@sc.iiitd.ac.in</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-iiitd-blue text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold">Pet Committee IIITD</h3>
+                    <p class="text-gray-300">Okhla Industrial Estate, Phase III, New Delhi-110020</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-white">Facebook</a>
+                    <a href="#" class="text-gray-300 hover:text-white">Instagram</a>
+                    <a href="contact.html" class="text-gray-300 hover:text-white">Contact</a>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+                &copy; 2025 IIITD Pet Committee. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

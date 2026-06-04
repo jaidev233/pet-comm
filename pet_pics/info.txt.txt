@@ -1,0 +1,90 @@
+PET
+Gender 
+Name
+Location
+Other information
+
+F
+Billu 
+Brewbakes 
+Vaccinated : no
+Pregnancy : yes
+
+M
+tom
+Brewbakes
+Vaccinated : no
+
+M
+Satty (Orange)
+Brew Bakes+Chai shop
+Vaccinated : no
+
+M
+Butter
+Chai Shop+ Brew Bakes
+Vaccinated : no
+Missing
+
+M
+Toma
+BrewBakes
+Vaccinated : no
+Missing 
+
+F
+Kittu
+Student activity centre
+Vaccinated : yes
+
+M
+Bittu
+Student activity centre
+Vaccinated : yes
+
+M
+Titu
+Student activity centre
+Vaccinated : yes
+
+M
+Skully
+Student activity centre
+Vaccinated : ?
+
+M
+Maddy 
+Student activity centre
+Vaccinated : ?
+
+M
+Kalu
+Student activity centre
+Vaccinated : ?
+
+M
+Gini 
+R&D + Chai Shop
+Vaccinated : no
+Missing 
+
+M
+Chotu (The Lost Kid)
+Student activity centre 
+(Adopted)
+Vaccinated : no
+Adopted 
+
+F
+Rocket
+Student activity centre
+Vaccinated : no
+Pregnancy : yes
+Missing 
+
+M
+Milku
+Student activity centre
+Vaccinated : yes
+Missing 
+
